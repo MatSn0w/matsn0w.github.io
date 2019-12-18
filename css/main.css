@@ -1,8 +1,46 @@
 /* Open Sans font */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    background: #eee;
+    padding: 0 1em;
+    align-items: center;
+}
+
+nav img {
+    height: auto;
+    width: auto;
+    max-height: 54px;
+    padding: 5px 0;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 100%;
+}
+
+nav ul li:hover {
+    background: #ddd;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #000000;
+    padding: 1em;
+}
+
+nav .active {
+    font-weight: 700;
 }
