@@ -59,3 +59,43 @@ nav .active {
         margin: auto;
     }
 }
+
+table {
+    width: 100%;
+    margin-top: 1em;
+    border: solid 1px #61ade0;
+    border-collapse: collapse;
+    cursor: default;
+}
+
+thead, tbody, tr, th, td {
+    border: none;
+    border-collapse: collapse;
+}
+
+table thead {
+    background: #61ade0;
+    color: #ffffff;
+}
+
+table th {
+    height: 50px;
+    font-weight: 700;
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgb(245, 245, 245);
+}
+
+tbody tr:hover {
+    background: rgb(230, 230, 230);
+}
+
+th, td {
+    padding: 5px;
+}
+
+table a {
+    color: #61ade0;
+}
