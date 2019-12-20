@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Magazijn | Timaflu</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/magazijn.css">
 </head>
 
 <body>
@@ -26,52 +27,92 @@
         </ul>
     </nav>
 
-    <h1>Magazijn</h1>
-    <p>Hier vind je een overzicht van alle orders die op dit moment nog verzonden moeten worden.</p>
+    <div class="container">
+        <h1>Magazijn</h1>
+        <p>Hier vind je een overzicht van alle orders die op dit moment nog verzonden moeten worden.</p>
+    
+        <table id="orders">
+            <thead>
+                <th>#</th>
+                <th>Klant</th>
+                <th>Datum</th>
+                <th>Status</th>
+                <th>Actie</th>
+            </thead>
+    
+            <tbody>
+                <tr>
+                    <td>33468</td>
+                    <td>Richman Brothers</td>
+                    <td>21-11-2019 15:42</td>
+                    <td>Inpakken</td>
+                    <td><a href="#">Adres printen</a></td>
+                </tr>
+    
+                <tr>
+                    <td>33469</td>
+                    <td>Creative Wealth Management</td>
+                    <td>21-11-2019 15:07</td>
+                    <td>Inpakken</td>
+                    <td><a href="#">Adres printen</a></td>
+                </tr>
+    
+                <tr>
+                    <td>33470</td>
+                    <td>Lechmere</td>
+                    <td>22-11-2019 10:31</td>
+                    <td>Verzamelen</td>
+                    <td><a href="#">Adres printen</a></td>
+                </tr>
+    
+                <tr>
+                    <td>33471</td>
+                    <td>A Plus Lawn Care</td>
+                    <td>22-11-2019 13:55</td>
+                    <td>Verzamelen</td>
+                    <td><a href="#">Adres printen</a></td>
+                </tr>
+            </tbody>
+        </table>
 
-    <table>
-        <thead>
-            <th>#</th>
-            <th>Klant</th>
-            <th>Datum</th>
-            <th>Status</th>
-            <th></th>
-        </thead>
+        <div class="order">
+            <h2>Order #33468</h2>
+            <p><strong>Klant</strong>: Richman Brothers</p>
+            <p><strong>Datum</strong>: 21-11-2019</p>
+            <p><strong>Tijd</strong>: 15:42</p>
+            <p><strong>Status</strong>: Inpakken</p>
 
-        <tbody>
-            <tr>
-                <td>33468</td>
-                <td>Richman Brothers</td>
-                <td>21-11-2019 15:07</td>
-                <td>Inpakken</td>
-                <td><a href="#">Adres printen</a></td>
-            </tr>
+            <h3>Deelorders</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Gang</th>
+                        <th>Bak</th>
+                    </tr>
+                </thead>
 
-            <tr>
-                <td>33469</td>
-                <td>Creative Wealth Management</td>
-                <td>21-11-2019 15:07</td>
-                <td>Inpakken</td>
-                <td><a href="#">Adres printen</a></td>
-            </tr>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>A</td>
+                        <td>14610</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>C</td>
+                        <td>14612</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>G</td>
+                        <td>14616</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
 
-            <tr>
-                <td>33470</td>
-                <td>Lechmere</td>
-                <td>22-11-2019 10:31</td>
-                <td>Verzamelen</td>
-                <td><a href="#">Adres printen</a></td>
-            </tr>
-
-            <tr>
-                <td>33471</td>
-                <td>A Plus Lawn Care</td>
-                <td>22-11-2019 13:55</td>
-                <td>Verzamelen</td>
-                <td><a href="#">Adres printen</a></td>
-            </tr>
-        </tbody>
-    </table>
 </body>
 
 </html>

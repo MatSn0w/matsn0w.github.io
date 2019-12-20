@@ -1,0 +1,19 @@
+.order {
+    display: none;
+}
+
+#orders:active ~ .order {
+    display: block; 
+}
+
+.order {
+    margin-top: 1em;
+}
+
+.order h3 {
+    margin-top: .5em;
+}
+
+.order table {
+    margin: 0;
+}
