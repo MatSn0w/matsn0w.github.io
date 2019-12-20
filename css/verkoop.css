@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+}
+
+.links{
+    display:flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.vlink a{
+    display:block;
+    text-decoration: none;
+    background: #61ade0;
+    /* height: 100%; */
+    padding: 20% 0;
+    border: 1px #000 solid;
+    border-radius: 5%;
+    color: #FFF;
+
+}
+
+.vlink a:hover{
+    background: #5799c5;
+}
+
+.vlink{
+    width: 20vw;
+    height: 25vh;
+    /* background: #00F; */
+    margin: 0 2vw;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    justify-items: center;
+}
