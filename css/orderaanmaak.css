@@ -1,0 +1,35 @@
+main{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.naam{
+    margin-left: 0.5vw;
+}
+
+.aanmaken{
+    margin-top: 2vh;
+    background-color: #61ade0;
+    color: #fff;
+    border-color: #000;
+    border-width: 0.3px;
+    padding: 2px;
+}
+
+.aanmaken:hover{
+    background-color: #32a6d4;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button{
+    margin-top: 20px;
+}
+
+.optie{
+    text-align: center;
+}

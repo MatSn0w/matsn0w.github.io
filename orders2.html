@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Verkoop | Timaflu</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/orderaanmaak.css">
+</head>
+<body>
+    <nav>
+        <img src="img/timaflu.png" alt="Timaflu">
+
+        <ul>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="inkoop.html">Inkoop</a></li>
+            <li class="active"><a href="verkoop.html">Verkoop</a></li>
+            <li><a href="magazijn.html">Magazijn</a></li>
+            <li><a href="administratie.html">Administratie</a></li>
+        </ul>
+
+        <ul>
+            <li><a href="index.html">Uitloggen</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="optie">
+            <h1>Maak een klant order aan</h1>
+            <h2>klantnummer klantnaam</h2>
+            <form action="orders.html">
+                <input type="number" value="33468" class='number'>
+                <input class='naam' type="text" value="Richman Brothers">
+                <input type="submit" value="order bewerken" class="aanmaken">
+            
+
+            <div>
+                <h1>voeg items toe</h1>
+                <form>
+                    <!--één hoeft maar worden ingevuld en door scannen van database wordt ander ook ingevuld-->
+                    <h2>itemnummer</h2>
+                    <input type="number">
+                    <h2>itemnaam</h2>
+                    <input type="text">
+
+                    <!--moet worden ingevuld-->
+                    <h2>hoeveelheid</h2>
+                    <input type="number">
+                    <br/>
+                    <button>toevoegen</button>
+                </form>
+                <table id='orders'>
+                    <thead>
+                        <th>itemnummer</th>
+                        <th>itemnaam</th>
+                        <th>hoeveelheid</th>
+                        <th></th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>14145</td>
+                            <td>oxazepam</td>
+                            <td>25</td>
+                            <td><button>verwijderen</button></td>
+                        </tr>
+                        <tr>
+                            <td>...</td>
+                            <td>...</td>
+                            <td>...</td>
+                            <td><button>verwijderen</button></td>
+
+                        </tr>
+                        <tr>
+
+
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </form>
+        </div>
+    </main>
+</body>
+</html>
