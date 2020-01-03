@@ -41,3 +41,42 @@ a.product-item
     background-color: #E53935 !important;
     color: white;
 }
+.card
+{
+    padding: 24px;
+    border-radius: 0 0 2px 2px;
+    color: #fff !important;
+    display: block;
+}
+.card title
+{
+    display: block;
+    line-height: 32px;
+    margin-bottom: 8px;
+    font-weight: normal;
+}
+.green
+{
+    background-color: #4CAF50 !important;
+}
+.dark-green
+{
+    background-color: #607d8b !important;
+}
+.card-contetn
+{
+    padding: 24px;
+    border-radius: 0 0 2px 2px;
+}
+.row
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.geslaagd
+{
+    color: white;
+    text-decoration: none;
+}
