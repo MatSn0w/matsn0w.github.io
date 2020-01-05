@@ -80,3 +80,7 @@ a.product-item
     color: white;
     text-decoration: none;
 }
+#darkgray
+{
+    background-color: darkgray;
+}
